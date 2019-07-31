@@ -5,8 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Machiavellian Daily Quotes"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:label="Machiavelli Daily Quotes"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
