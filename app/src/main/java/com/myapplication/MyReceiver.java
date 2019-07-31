@@ -62,6 +62,7 @@ public class MyReceiver extends BroadcastReceiver {
                 .setContentTitle("Warhammer Qoute of The Day")
                 .setContentIntent(pendingIntent)
                 .setContentText(qoutes.get(random.nextInt(47)))
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(qoutes.get(random.nextInt(47))))
                 .setDefaults(Notification.DEFAULT_LIGHTS | Notification.DEFAULT_SOUND)
                 .setContentInfo("Info");
         NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
