@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.machiavellian_qoutes;
 
 import android.app.IntentService;
 import android.app.Notification;

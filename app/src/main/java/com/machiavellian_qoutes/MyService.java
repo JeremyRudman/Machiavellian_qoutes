@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.machiavellian_qoutes;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
