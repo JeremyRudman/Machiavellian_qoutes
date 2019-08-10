@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
         // SET TIME HERE
         Calendar calendar= Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY,12);
+        calendar.set(Calendar.HOUR_OF_DAY,14);
         calendar.set(Calendar.MINUTE,30);
 
 
